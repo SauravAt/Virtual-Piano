@@ -1,0 +1,199 @@
+<html>
+    <head>
+<style>
+    body {background-color:black;}
+    .C_Note{
+        color:black;
+        position:absolute;
+        
+        padding-top:258px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        z-index: 50;
+        background-color: white;
+        cursor: pointer;
+        left: 366px;
+        top:142px;
+    }
+    .D_Note{
+        color:black;
+        position:absolute;
+        
+        padding-top:258px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 56px;
+        z-index: 51;
+        background-color: white;
+        cursor: pointer;
+        left: 369px;
+        top:143px;
+    }
+    .E_Note{
+        color:black;
+        position:absolute;
+        
+        padding-top:258px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 111px;
+        z-index: 53;
+        background-color: white;
+        cursor: pointer;
+        left: 373px;
+        top:143px;
+    }
+    .Cs_Note{
+        color:white;
+        position:absolute;
+        
+        padding-top:180px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 26px;
+        z-index: 52;
+        background-color:black;
+        cursor: pointer;
+        border-color: black;
+        border-color: red;
+        left: 364px;
+        top:142px;
+    }
+    .Ds_Note{
+        color:white;
+        position:absolute;
+        
+        padding-top:180px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 96px;
+        z-index: 54;
+        background-color:black;
+        cursor: pointer;
+        border-color: black;
+        border-color: red;
+        left: 364px;
+        top:142px;
+    }
+    .F_Note{
+        color:black;
+        position:absolute;
+        
+        padding-top:258px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 164px;
+        z-index: 53;
+        background-color: white;
+        cursor: pointer;
+        left: 377px;
+        top:143px;
+    }
+    .G_Note{
+        color:black;
+        position:absolute;
+        
+        padding-top:258px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 219px;
+        z-index: 53;
+        background-color: white;
+        cursor: pointer;
+        left: 377px;
+        top:143px;
+    }
+    
+    .H_Note{
+        color:black;
+        position:absolute;
+        
+        padding-top:258px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 276px;
+        z-index: 53;
+        background-color: white;
+        cursor: pointer;
+        left: 377px;
+        top:143px;
+    }
+    .Es_Note{
+        color:white;
+        position:absolute;
+        
+        padding-top:180px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 200px;
+        z-index: 54;
+        background-color:black;
+        cursor: pointer;
+        border-color: black;
+        border-color: red;
+        left: 364px;
+        top:142px;
+    }
+    .Fs_Note{
+        color:white;
+        position:absolute;
+        
+        padding-top:180px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 270px;
+        z-index: 54;
+        background-color:black;
+        cursor: pointer;
+        border-color: black;
+        border-color: red;
+        left: 364px;
+        top:142px;
+    }
+
+</style>
+<title> Virtual Piano</title>
+<script>
+    var a=new Audio();
+    a.src="a.wav";
+    var b=new Audio();
+    b.src="b.mp3";
+    var c=new Audio();
+    c.src="c.mp3";
+    var d=new Audio();
+    d.src="d.mp3";
+    var e=new Audio();
+    e.src="e.wav";
+    var f=new Audio();
+    f.src="f.mp3";
+    var g=new Audio();
+    g.src="g.wav";
+</script>
+    </head>
+    <body>
+        <center>
+            
+            <div id="div1"><h1><u><b><font color="white">Virtual Piano</font></b></u></h1></div>
+            <button class="C_Note" onclick="a.play()" >C</button>
+            <button class="D_Note" onclick="g.play()" >D</button>
+            <button class="E_Note" onclick="c.play()" >E</button>
+            <button class="Cs_Note" onclick="b.play()">C#</button>
+            <button class="Ds_Note" onclick="b.play()">D#</button>
+            <button class="F_Note" onclick="d.play()" >F</button>
+            <button class="G_Note" onclick="e.play()" >G</button>
+            <button class="H_Note" onclick="f.play()">H</button>
+            <button class="Es_Note" onclick="b.play()">E#</button>
+            <button class="Fs_Note" onclick="b.play()">F#</button>
+        </center>
+    </body>
+</html>
